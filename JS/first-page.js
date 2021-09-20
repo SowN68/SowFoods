@@ -15,7 +15,8 @@ function bgChange(images,bgImage){
             setInterval(function(){
                         var randomImg = Math.floor(Math.random() * bgImage.length);
                         images.src = bgImage[randomImg];    
-            },1000);
+            },3000);
 
 }
+
 bgChange(images,bgImage);
