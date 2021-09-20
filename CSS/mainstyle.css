@@ -40,6 +40,9 @@ section {
   color: var(--text);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+.nav-icon{
+            font-size: 25px;
+}
 .nav-scrolled{
             position: fixed;
             --background: #eee;
